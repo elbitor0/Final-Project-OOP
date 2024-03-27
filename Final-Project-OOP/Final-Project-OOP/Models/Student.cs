@@ -1,6 +1,6 @@
 ﻿namespace Final_Project_OOP.Models
 {
-    public class Student
+    public class Student : User
     {
         public int StudentId { get; set; }
         public string FirstName { get; set; }

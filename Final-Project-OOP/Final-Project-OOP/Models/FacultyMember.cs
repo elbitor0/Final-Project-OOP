@@ -1,6 +1,6 @@
 ﻿namespace Final_Project_OOP.Models
 {
-    public class FacultyMember
+    public class FacultyMember : User
     {
         public int FacultyId { get; set; }
         public string FirstName { get; set; }
